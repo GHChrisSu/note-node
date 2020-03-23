@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/suhao/GitHub/learn_plugin/src-capacitor/node_modules/note-node/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/suhao/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/suhao/GitHub/learn_plugin/src-capacitor/node_modules/note-node/android/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "libnode-Debug-x86": {
+      "artifactName": "libnode",
+      "abi": "x86",
+      "output": "/Users/suhao/GitHub/learn_plugin/src-capacitor/node_modules/note-node/android/libnode/bin/x86/libnode.so"
+    },
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/suhao/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/suhao/GitHub/learn_plugin/src-capacitor/node_modules/note-node/android/.externalNativeBuild/cmake/debug/x86 --target native-lib",
+      "abi": "x86",
+      "output": "/Users/suhao/GitHub/learn_plugin/src-capacitor/node_modules/note-node/android/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  }
+}

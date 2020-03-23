@@ -1,3 +1,0 @@
-/Users/suhao/GitHub/learn_plugin/note-node/android/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/Users/suhao/GitHub/learn_plugin/note-node/android/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/Users/suhao/GitHub/learn_plugin/note-node/android/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir
