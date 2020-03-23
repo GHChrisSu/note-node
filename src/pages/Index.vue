@@ -1,14 +1,19 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
+    <q-btn icon="create" label="New item" @click="startN" />
   </q-page>
 </template>
 
 <script>
+import { Plugins } from "@capacitor/core";
+const { NoteNode } = Plugins;
+
 export default {
-  name: 'PageIndex'
-}
+  name: "PageIndex",
+  methods: {
+    startN() {
+      NoteNode.startNode()
+    }
+  }
+};
 </script>

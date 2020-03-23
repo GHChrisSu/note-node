@@ -8,6 +8,8 @@
   "author": "suhao <chrissusuhao@gmail.com>",
   "private": true,
   "scripts": {
+    "ios": "./node_modules/.bin/quasar dev -m capacitor -T ios",
+    "android": "./node_modules/.bin/quasar dev -m capacitor -T android",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },
